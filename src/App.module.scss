@@ -1,0 +1,108 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.watch {
+  /* Container */
+  --container-background: #FF8300;
+
+  /* Face */
+  --face-background:#fff;
+  --face-border: 8px solid #fff;
+
+  /* Hour Hand */
+  --hour-hand-width: 6px;
+  --hour-hand-height: 60px;
+  --hour-hand-background: #FF8300;
+  --hour-hand-inset: 0px;
+  
+  /* Minute Hand */
+  --minute-hand-width: 6px;
+  --minute-hand-height: 114px;
+  --minute-hand-background: #FF8300;
+  --minute-hand-inset: 0px;
+
+  /* Second Hand */
+  --second-hand-width: 2px;
+  --second-hand-height: 140px;
+  --second-hand-background: #444;
+  --second-hand-inset: 20px;
+}
+
+.watch2 {
+  /* Case */
+  --case-background: #FF8300;
+
+  /* Face */
+  --face-background:#fff;
+  --face-border: 8px solid #fff;
+
+  /* Hour Hand */
+  --hour-hand-width: 6px;
+  --hour-hand-height: 60px;
+  --hour-hand-background: #FF8300;
+  --hour-hand-inset: 0px;
+  
+  /* Minute Hand */
+  --minute-hand-width: 6px;
+  --minute-hand-height: 114px;
+  --minute-hand-background: #FF8300;
+  --minute-hand-inset: 0px;
+
+  /* Second Hand */
+  --second-hand-width: 2px;
+  --second-hand-height: 140px;
+  --second-hand-background: #444;
+  --second-hand-inset: 20px;
+}
+
+.watch3 {
+  --case-background: #00C9FF;
+  --face-border: none;
+  --second-hand-background: #00C9FF;
+  --minute-hand-background: #444;
+  --hour-hand-background: #444;
+
+  /* Hands Mount*/
+  --hands-mount-width: 20px;
+  --hands-mount-background: #00C9FF;
+  --hands-mount-border: 4px solid #00C9FF;
+
+  /* Hour Markers*/ 
+  --hour-marker-background: #00C9FF;
+  --hour-marker-inset: 24px;
+  --hour-marker-width: 2px;
+  --hour-marker-height: 60px;
+}
+
+.watch4 {
+  --case-background: #fff;
+  --face-background: #DEA7F9;
+  --face-border: none;
+  --hour-marker-number-border-radius: 10px;
+  --hour-marker-number-background: #fff;
+  --hour-marker-number-color: #111;
+}
+
+.watch5 {
+  --case-background: #fff;
+  --face-background: #fff;
+  --face-border: none;
+  --hour-marker-number-border-radius: 10px;
+  --hour-marker-number-background: #2ECC71;
+  --hour-marker-number-color: #111;
+}
+
+.watch6 {
+  --face-background: #fff;
+  --face-border: none;
+  --hour-marker-number-border-radius: 10px;
+  --hour-marker-number-color: #111;
+  --hour-marker-background: none;
+}

@@ -1,0 +1,10 @@
+.container {
+  width: var(--width, 6px);
+  height: var(--height, 60px);
+  position: absolute;
+  left: calc(50% - calc(var(--width, 6px) / 2));
+  top: calc(50% - calc(var(--height, 60px) / 2));
+  transform: rotate(var(--degree, 0deg)) translateY(calc(var(--height, 60px) / -2 + var(--inset, 0px)));
+  background: var(--background, #444);
+  border-radius: 2px;
+}

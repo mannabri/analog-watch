@@ -1,0 +1,65 @@
+.case {
+  width: 300px;
+  height: 300px;
+  padding: 12px;
+  position: relative;
+  background: var(--case-background, #222);
+  border-radius: 56px
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  border: var(--face-border, 8px solid #FFC300);
+  border-radius: 100%;
+  background: var(--face-background, #fff);
+}
+
+.handsMount {
+  width: var(--hands-mount-width, 12px);
+  height: var(--hands-mount-width, 12px);
+  background: var(--hands-mount-background, #444);
+  border: var(--hands-mount-border, 4px solid #444);
+  position: absolute;
+  border-radius: 100%;
+  top: calc(50% - calc(var(--hands-mount-width, 12px) / 2));
+  left: calc(50% - calc(var(--hands-mount-width, 12px) / 2));
+}
+
+.hourHand {
+  --width: var(--hour-hand-width, 6px);
+  --height: var(--hour-hand-height, 60px);
+  --background: var(--hour-hand-background, #444);
+  --inset: var(--hour-hand-inset, 0px);
+}
+
+.minuteHand {
+  --width: var(--minute-hand-width, 6px);
+  --height: var(--minute-hand-height, 114px);
+  --background: var(--minute-hand-background, #444);
+  --inset: var(--minute-hand-inset, 0px);
+}
+
+.secondHand {
+  --width: var(--second-hand-width, 4px);
+  --height: var(--second-hand-height, 140px);
+  --background: var(--second-hand-background, #FFC300);
+  --inset: var(--second-hand-inset, 15px);
+}
+
+.hourMarker {
+  --width: var(--hour-marker-width, 4px);
+  --height: var(--hour-marker-height, 40px);
+  --background: var(--hour-marker-background, #333);
+  --inset: var(--hour-marker-inset, 8px);
+}
+
+.hourMarkerNumber {
+  --width: var(--hour-marker-number-width, 40px);
+  --height: var(--hour-marker-number-height, 40px);
+  --background: var(--hour-marker-number-background, none);
+  --inset: var(--hour-marker-number-inset, 10px);
+  --border-radius: var(--hour-marker-number-border-radius, 100%);
+  --color: var(--hour-marker-number-color, #111);
+  --font-size: var(--hour-marker-number-font-size, 25px);
+}

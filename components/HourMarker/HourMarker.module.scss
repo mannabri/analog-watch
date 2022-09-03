@@ -1,0 +1,10 @@
+.tick {
+  width: var(--width, 4px);
+  height: var(--height, 40px);
+  background: var(--background, #333);
+  position: absolute;
+  left: calc(50% - calc(var(--width, 4px) / 2));
+  top: calc(50% - calc(var(--height, 40px) / 2));
+  transform: rotate(var(--rotation, 0deg)) translateY(calc(-119px + var(--inset, 8px)));
+  border-radius: 2px;
+}
